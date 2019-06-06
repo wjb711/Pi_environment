@@ -132,7 +132,7 @@ if __name__=='__main__':
             content='北京高安机房温湿度报警，请尽快处理'
             #邮件正文
 
-            if ip().startswith('10.102'):
+            if ip().startswith('内网地址'):
                 
                 internal_email()
             else:
