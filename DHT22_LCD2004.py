@@ -92,9 +92,8 @@ if __name__=='__main__':
     #传感器设置为DHT22, 驱动选用Adafruit_DHT
 
     tem_MAX=31
-    hum_MAX=90
-    #设定温度湿度最大值
-    receivers=['jianbo.wang@gi-de.com','10054053@qq.com','18970078166@163.com']
+    hum_MAX=9    #设定温度湿度最大值
+    receivers=['xxxxg@gi-de.com','xxxx3@qq.com','xxxx6@163.com']
     #报警接收人
         
     ntp_server='x.x.x.x'
@@ -129,7 +128,7 @@ if __name__=='__main__':
             title='HSDN Server room 温度:'+str(tmp)+'*C'+'湿度:'+str(hmt)+'%'
             #邮件标题
             #global content
-            content='北京高安机房温湿度报警，请尽快处理'
+            content='高安机房温湿度报警，请尽快处理'
             #邮件正文
 
             if ip().startswith('内网地址'):
