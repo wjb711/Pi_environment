@@ -1,0 +1,16 @@
+{
+  "key2": "value2***",
+  "mail_server": "10.4.172.3 ",
+  "receivers": "jianbo.wang@gi-de.com,10054053@qq.com,18970078166@163.com",
+  "subject": "北京高安机房温湿度检测报警",
+  "ip": "none",
+  "sender": "bjHSDN@gi-de.com",
+  "item1": "a",
+  "hum_max": "90",
+  "item2": "b",
+  "content": "温湿度超标，请尽快处理",
+  "item3": "c",
+  "tem_max": "32",
+  "key1": "value1",
+  "ntp_server": "10.102.10.1"
+}
